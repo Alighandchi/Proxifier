@@ -47,3 +47,6 @@ ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's 
 - [LOL](https://www.leagueoflegends.com/)
 - [Itunes](https://www.apple.com/itunes/)
 - [Party Animal](https://partyanimalsgame.com/)
+- [Xbox live & Game Bar](https://www.xbox.com/)
+- [Google Drive](drive.google.com)
+- [VS Code](https://code.visualstudio.com/)
