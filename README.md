@@ -5,13 +5,13 @@ ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's 
 
 
 ## How to use
-- If you are new to this, please download Proxyfier from [Proxifier.com] (https://www.proxifier.com/download/)
-- please download Proxyfier Profile from [releases] (https://github.com/Alighandchi/Proxifier/releases)
+- If you are new to this, please download Proxyfier from [Proxifier.com](https://www.proxifier.com/download/)
+- please download Proxyfier Profile from [releases](https://github.com/Alighandchi/Proxifier/releases)
 - install Proxifier.exe and load profile.ppx to proxifier.
 - Run [V2rayN] (https://github.com/Alighandchi/v2rayN) in background and enjoy.
 
 ## Requirements  
-- (v4.12 and above) [Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- (v4.12 and above) [Microsoft .NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Windows 10 and above.
 
 
