@@ -4,19 +4,14 @@ ProxifierProfile for troubleshoot and connect to services that were banned or fi
 ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's socksify demo, introducing robust enhancements. Not only does it seamlessly integrate support for UDP, but it also empowers users with the flexibility of managing multiple proxy instances. Streamlining its configuration process, ProxiFyre now dynamically sources its settings from an app-config.json file, ensuring a more intuitive and user-friendly experience. Furthermore, with its adaptability in mind, ProxiFyre can be effortlessly configured to run as a Windows Service, providing continuous operation without the need for manual intervention.
 
 
-<!-- [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
-[![CodeFactor](https://www.codefactor.io/repository/github/2dust/v2rayn/badge)](https://www.codefactor.io/repository/github/2dust/v2rayn)
-[![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayN/latest/total?logo=github)](https://github.com/2dust/v2rayN/releases)
-[![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn) -->
-
-
 ## How to use
-- If you are new to this, please download Proxyfier from [Proxifier.com](https://www.proxifier.com/download/)
-- please download Proxyfier Profile from [releases](https://github.com/Alighandchi/Proxifier/releases)
-- Run Proxifier.exe, install and load profile to proxifier.
+- If you are new to this, please download Proxyfier from [Proxifier.com] (https://www.proxifier.com/download/)
+- please download Proxyfier Profile from [releases] (https://github.com/Alighandchi/Proxifier/releases)
+- install Proxifier.exe and load profile to proxifier.
+- Run V2rayN in background and enjoy.
 
 ## Requirements  
-- (v4.12 and above)[Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- (v4.12 and above) [Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Windows 10 and above.
 
 
