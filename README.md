@@ -12,7 +12,7 @@ ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's 
 
 ## How to use
 - If you are new to this, please download Proxyfier from [Proxifier.com](https://www.proxifier.com/download/)
-- please download Proxyfier Profile from [releases](https://www.proxifier.com/download/)
+- please download Proxyfier Profile from [releases]([https://www.proxifier.com/download](https://github.com/Alighandchi/Proxifier/releases))
 - Run Proxifier.exe, install and load profile to proxifier.
 
 ## Requirements  
