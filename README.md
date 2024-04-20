@@ -1,2 +1,54 @@
-# Proxifier
+# ProxiFyre: SOCKS5 Proxifier for Windows
 ProxifierProfile for troubleshoot and connect to services that were banned or filtered.
+
+ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's socksify demo, introducing robust enhancements. Not only does it seamlessly integrate support for UDP, but it also empowers users with the flexibility of managing multiple proxy instances. Streamlining its configuration process, ProxiFyre now dynamically sources its settings from an app-config.json file, ensuring a more intuitive and user-friendly experience. Furthermore, with its adaptability in mind, ProxiFyre can be effortlessly configured to run as a Windows Service, providing continuous operation without the need for manual intervention.
+
+
+<!-- [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
+[![CodeFactor](https://www.codefactor.io/repository/github/2dust/v2rayn/badge)](https://www.codefactor.io/repository/github/2dust/v2rayn)
+[![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayN/latest/total?logo=github)](https://github.com/2dust/v2rayN/releases)
+[![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn) -->
+
+
+## How to use
+- If you are new to this, please download Proxyfier from [Proxifier.com](https://www.proxifier.com/download/)
+- please download Proxyfier Profile from [releases](https://www.proxifier.com/download/)
+- Run Proxifier.exe, install and load profile to proxifier.
+
+## Requirements  
+- (v4.12 and above)[Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- Windows 10 and above.
+
+
+## App & Game Supported
+- [FiveM(Luncher)](https://fivem.net/)
+- [RedM (Luncher)](https://redm.net/)
+- [Valorant & Riotgames](https://playvalorant.com/)
+- [Steelseries](https://steelseries.com/)
+- [Neoxa RP](https://neoxa.net/)
+- [ACE RP](https://acecommunity.ir/)
+- [GoldRush RP](https://goldrushroleplay.com/)
+- [Net Upddater](https://microsoft.com/)
+- [Discord](Discord.com)
+- [Nvidia & GeForce](https://www.nvidia.com/)
+- [Steam](https://steamcommunity.com/)
+- [Epic Games](https://store.epicgames.com/)
+- [Microsoft Update](https://support.microsoft.com/)
+- [forgottentrails RP](cfx.re/join/apkkkz)
+- [Youtube](https://www.youtube.com/)
+- [Syn County RP](cfx.re/join/5z4x77)
+- [Termiuse](https://termius.com/)
+- [Warp](https://cloudflarewarp.com/)
+- [Nexone RP]()
+- [Spotify](https://open.spotify.com/)
+- [NEO RP](https://discord.gg/cmrudS7xMh)
+- [Gilded RP](cfx.re/join/j33b84)
+- [RockStar](https://www.rockstargames.com/)
+- [Asus](https://www.asus.com/)
+- [System Run]()
+- [Teamspeak](https://www.teamspeak.com/en/)
+- [Fetch info]()
+- [Frontier RP](cfx.re/join/zg38zd)
+- [LOL](https://www.leagueoflegends.com/)
+- [Itunes](https://www.apple.com/itunes/)
+- [Party Animal](https://partyanimalsgame.com/)
