@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxifierProfile version="102" platform="Windows" product_id="0" product_minver="400">
+	<Options>
+		<Resolve>
+			<AutoModeDetection enabled="false" />
+			<ViaProxy enabled="true" />
+			<BlockNonATypes enabled="false" />
+			<ExclusionList OnlyFromListMode="false">%ComputerName%; localhost; *.local</ExclusionList>
+			<DnsUdpMode>0</DnsUdpMode>
+		</Resolve>
+		<Encryption mode="disabled" />
+		<ConnectionLoopDetection enabled="false" resolve="true" />
+		<Udp mode="mode_bypass" />
+		<LeakPreventionMode enabled="false" />
+		<ProcessOtherUsers enabled="false" />
+		<ProcessServices enabled="false" />
+		<HandleDirectConnections enabled="false" />
+		<HttpProxiesSupport enabled="true" />
+	</Options>
+	<ProxyList>
+		<Proxy id="100" type="SOCKS5">
+			<Options>48</Options>
+			<Port>10808</Port>
+			<Address>127.0.0.1</Address>
+		</Proxy>
+		<Proxy id="101" type="SOCKS5">
+			<Options>48</Options>
+			<Port>2334</Port>
+			<Address>127.0.0.1</Address>
+		</Proxy>
+		<Proxy id="102" type="HTTP">
+			<Options>48</Options>
+			<Port>10809</Port>
+			<Address>127.0.0.1</Address>
+		</Proxy>
+	</ProxyList>
+	<ChainList />
+	<RuleList>
+		<Rule enabled="false">
+			<Action type="Proxy">100</Action>
+			<Targets>localhost; 127.0.0.1; %ComputerName%; ::1</Targets>
+			<Name>Localhost</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>status.cfx.re; metrics.fivem.net; status.fivem.net; synapse.fivem.net; runtime.fivem.net; content.cfx.re; users.cfx.re; sentry.fivem.net; lambda.fivem.net; keymaster.fivem.net; cnl-hb-live.fivem.net; policy-live.fivem.net; changelogs-live.fivem.net; servers-frontend.fivem.net; registry-internal.fivem.net; forum.cfx.re; github.com; rockstargames.com; cloudflare.com; servers.redm.gg; servers.fivem.gg</Targets>
+			<Name>FiveM (Luncher)</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>status.cfx.re; metrics.redm.net; status.redm.net; synapse.redm.net; runtime.redm.net; content.cfx.re; users.cfx.re; sentry.redm.net; lambda.redm.net; keymaster.redm.net; cnl-hb-live.redm.net; policy-live.redm.net; changelogs-live.redm.net; servers-frontend.redm.net; registry-internal.redm.net;</Targets>
+			<Name>RedM (Luncher)</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>95.216.112.104; gaming.neoxa.net; neoxa.net; script.js; main.js; client.lua; phoenix-ac.com; 178.22.122.100</Targets>
+			<Name>Neoxa RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>playvalorant.com; riot-geo-pas.si.riotgames.com; riotgames.com; entitlements.auth.riotgames.com; 5.9.210.69; 68.183.158.112; cdn.com; clientconfig.rgp.riotgames.com; data.riotgames.com; auth.riotgames.com;</Targets>
+			<Name>Valorant</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>5.42.223.89</Targets>
+			<Name>ACE RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>mwbgidic.filter.evo-filter.com; 51.222.124.197;</Targets>
+			<Name>GoldRush RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>clientsdk.luminatinet.com; clientsdk.lum-sdk.io</Targets>
+			<Name>Net Upddater</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>void.Steelseries.com; Steelseries.com</Targets>
+			<Name>Steelseries</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>discord.com; cdn.discord.com; gateway.discord.gg; 2.180.197.208; api.betterdiscord.app; raw.githubusercontent.com; 162.159.128.233; 162.159.136.232; 162.159.135.232; 162.159.137.232; 162.159.138.232; discord.gg; 66.22.199.225; 162.159.138.234; 172.217.17.91; 20.199.58.43; 52.9.28.116; 52.178.17.2;</Targets>
+			<Name>Discord</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>events.gfe.nvidia.com; nvidia.com; login.nvgs.nvidia.com; accounts.nvgs.nvidia.com; jarvis-idm-eks.nvgs.nvidia.com; geo-location-api.gx.nvidia.com; ota.nvidia.com; services.gfe.nvidia.com; images.nvidia.com; ls.dtrace.nvidia.com; gfws1.geforce.com; geforce.com; hcaptcha.com; static.nvidiagrid.net; nvidiagrid.net; gfwsl.geforce.com; ngx.download.nvidia.com; </Targets>
+			<Name>Nvidia</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>test.steampowered.com; api.steampowered.com; 185.200.232.49; 185.200.232.42; ipv6check-udp.steamserver.net; ipv6check-http.steamserver.net; ; ext2-fra1.steamserver.net; 162.254.197.54; steamserver.net; steampowered.com; steamcommunity.com;  ext2-fra2.steamserver.net; 155.133.226.75;  ext3-sto1.steamserver.net; 162.254.198.46; ext3-sto2.steamserver.net; lancache.steamcontent.com; cdn.steamstatic.com; steamstore-a.akamaihd.net; cashe5-fra2.steamcontent.com; cashe10-fra1.steamcontent.com; </Targets>
+			<Name>Steam</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>store.epicgames.com; epicgames.com; </Targets>
+			<Name>Epic Games</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>go.microsoft.com; microsoft.com; settings-win.data.microsoft.com; atm-settingsfe-prod-geo2.trafficmanager.net;</Targets>
+			<Name>Microsoft Update</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>play.forgottentrailsrp.com; 15.204.133.20; forgottentrailsrp.com</Targets>
+			<Name>forgottentrails RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>youtube.com; 142.250.189.238; 142.251.46.206; 172.217.164.110; 172.217.12.110; 142.250.189.206; 142.251.46.174; 142.251.32.46; 142.250.191.78; 142.250.189.174; 142.250.72.206; 142.250.191.46; 142.251.46.238; 142.251.214.142; youtube-ui.l.google.com; </Targets>
+			<Name>Youtube</Name>
+		</Rule>
+		<Rule enabled="false">
+			<Action type="Proxy">100</Action>
+			<Targets>data.riotgames.com; auth.riotgames.com; riot-client.dyn.riotcdn.net; riotcdn.net; authenticate.riotgames.com; playerpreferences.riotgames.com; bacon.secure.syn.riotcdn.net; lol.secure.dyn.riotcdn.net; riot-client.secure.dyn.riotcdn.net; ritoplus.secure.dyn.riotcdn.net; valorant.secure.dyn.riotcdn.net; wildrift.secure.dyn.riotcdn.net; euc1-red.pp.spg.pvp.net; ru1.chat.si.riotgames.com; ekg.riotgames.com; eu.edge.rms.si.riotgames.com; </Targets>
+			<Name>Valorant Full IP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>Syncounty.co; 51.195.1.246</Targets>
+			<Name>Syn County RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>api-js.mixpanel.com; 172.105.91.57; ssh-2.0-openssh_8.2p1; 172.105.101.45</Targets>
+			<Name>Termiuse</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>1.1.1.1; 1.0.0.1; 162.159.137.105; 162.159.138.105; 162.159.36.1; 162.159.46.1; 162.159.193.0/24; one.one.one.one; in.appcenter.ms; fe80::be0f:9aff:fe92:703f; </Targets>
+			<Applications>"cloudflare warp.exe"</Applications>
+			<Name>Warp</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>77.87.122.53</Targets>
+			<Name>NexoneRP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>Spotify.com; gew4-dealer.spotify.com; </Targets>
+			<Name>Spotify</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>5.42.217.22</Targets>
+			<Name>NEO RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>135.148.150.33; gildedroleplay.com</Targets>
+			<Name>Gilded RP</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>support.rockstargames.com; rgl.rockstargames.com; gamedownloads.rockstargames.com; drivefrontend-pa.googleapis.com</Targets>
+			<Name>RockStar</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>rog-live-service.asus.com</Targets>
+			<Name>Asus</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>wdcp.microsoft.com; user.auth.xboxlive.com; lightstep.kaizen.nvidia.com; vw2vu2ni.evo-shield.com; xsts.auth.xboxlive.com; default.exp-tas.com; video.twimg.com; update.googleapis.com; i.imgur.com; </Targets>
+			<Name>Need to play</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>myteamspeak.com</Targets>
+			<Name>Teamspeak</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>192.168.10.254; 66.22.199.34; 239.255.255.250; 78.157.42.100;  a.root-servers.net; 224.0.0.251; 192.168.10.255; 192.81.241.100; fe80::dc76:210e:dd5a:7c52; SRV_cfx._udp.localhost; PTR_cfx._udp.local; 89.58.52.160; 89.58.39.163; </Targets>
+			<Name>Fetch info</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>play.thefrontierroleplay.com; thefrontier.teamspeak3.com; 147.135.54.146</Targets>
+			<Name>Frontier RP</Name>
+		</Rule>
+		<Rule enabled="false">
+			<Action type="Proxy">100</Action>
+			<Targets>insights-collector.newrelic.com; clientconfig.rpg.riotgames.com; riot-client.dyn.riotcdn.net; o163744.ingest.sentry.io; authenticate.riotgames.com; riot-go.pas.si.riotgames.com; bacon.secure.dyn.riotcdn.net; lol.secure.dyn.riotcdn.net; valorant.secure.dyn.riotcdn.net; riotplus.secure.dyn.riotcdn.net; wildrift.secure.dyn.riotcdn.net; player-lifecycle-euc.publishig.riotgames.com; red.pp.sgp.pvp.net; eun1.chat.si.riotgames.com; eu.edge.rms.si.riotgames.com; api.account.riotgames.com; content.publishing.riotgames.com; sieve.services.riotcdn.net; ekg.riotgames.com; </Targets>
+			<Name>LOL</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>upp.itunes.apple.com; apple.com; desktop-music.itunes.apple.com; i.scdn.co; ecs.office.com; </Targets>
+			<Name>Itunes</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">100</Action>
+			<Targets>partyanimals.com; eu-central-1.partyanimals.api.partyanimalsgame.com; tsmxhorldj.execute-api.eu-central-1.amazonaws.com; amazonaws.com; fk9kvyuwsb.execute-api.eu-central-1.amazonaws.com; </Targets>
+			<Name>Party Animal</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Name>Default</Name>
+		</Rule>
+	</RuleList>
+</ProxifierProfile>
