@@ -1,4 +1,4 @@
-# Proxifier: SOCKS5 Proxifier for connect to services that were banned or filtered
+# Proxifier: Connect to a services that were banned or filtered!
 Proxifier Profile for troubleshoot and get best connection for windows.
 
 ProxiFyre elevates the foundational capabilities of the Windows Packet Filter's socksify demo, introducing robust enhancements. Not only does it seamlessly integrate support for UDP, but it also empowers users with the flexibility of managing multiple proxy instances. Streamlining its configuration process, ProxiFyre now dynamically sources its settings from an app-config.json file, ensuring a more intuitive and user-friendly experience. Furthermore, with its adaptability in mind, ProxiFyre can be effortlessly configured to run as a Windows Service, providing continuous operation without the need for manual intervention.
