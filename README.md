@@ -53,3 +53,5 @@ Proxifier elevates the foundational capabilities of the Windows Packet Filter's 
 - [Xbox live & Game Bar](https://www.xbox.com/)
 - [Google Drive](drive.google.com)
 - [VS Code](https://code.visualstudio.com/)
+- [Electro](https://electrotm.org/)
+- [Godping](https://godping.ir/)
