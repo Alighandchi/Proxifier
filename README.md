@@ -9,16 +9,17 @@ Proxifier elevates the foundational capabilities of the Windows Packet Filter's 
 - First of all, you need a reliable and stable service! We suggest that the first place you visit is [iMobotech](https://imobotech.com/), where you can have the best server to use this tool without the need for KYC.
 - Download [V2rayN](https://github.com/2dust/v2rayN/releases) and run app in clear system proxy.
 - After buying a suitable server, put it in V2rayN and proceed according to the instructions.
-- If you are new to this, download Proxyfier app from [Proxifier.com](https://www.proxifier.com/download/)
-- Download the last version Proxyfier Profile from [releases](https://github.com/Alighandchi/Proxifier/releases)
+- If you are new to this, download [Proxifier](https://www.proxifier.com/download/).
+- Download the last version Proxyfier Profile, [releases](https://github.com/Alighandchi/Proxifier/releases).
 - install Proxifier.exe and load profile.ppx to proxifier app and enjoy the absolute freedom.
 
 
 ## Requirements  
 - [Stable config server](https://imobotech.com/).
-- V2rayN (v6.4 or above](https://github.com/2dust/v2rayN/releases)
+- [V2rayN (v6.4 or above)](https://github.com/2dust/v2rayN/releases)
+- [Microsoft .NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+- [Proxifier (v4.12 or above)](https://www.proxifier.com/download/)
 - Windows 10 or above.
-- (Proxifier v4.12 or above) [Microsoft .NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
 
 ## App & Game Supported
