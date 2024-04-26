@@ -1,4 +1,4 @@
-# Proxifier: Connect to a services that were banned or filtered!
+# iMobotech Proxifier Profile: The Biggest IP server reference!
 Proxifier Profile for troubleshoot and get best connection for windows.
 
 
