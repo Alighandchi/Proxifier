@@ -1,4 +1,4 @@
-# iMobotech Proxifier Profile: The Biggest IP server reference!
+# Proxifier Profile: The biggest proxy server reference!
 Proxifier Profile for troubleshoot and get best connection for windows.
 
 
@@ -40,4 +40,4 @@ Proxifier elevates the foundational capabilities of the Windows Packet Filter's 
 - [Electro](https://electrotm.org/)
 - [Godping](https://godping.ir/)
 - [Ubisoft](https://Ubisoft.com/)
-- +45 App, Game & Server's.
+- +95 App, Game & Server's.
