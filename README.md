@@ -18,7 +18,7 @@ Proxifier elevates the foundational capabilities of the Windows Packet Filter's 
 - [Stable config server](https://imobotech.com/).
 - [V2rayN (v6.4 or above)](https://github.com/2dust/v2rayN/releases)
 - [Microsoft .NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0). [Direct Link](https://download.visualstudio.microsoft.com/download/pr/1e9f5038-d1c3-4219-94e9-62d6f810e589/c28bb8c8a1a3d01c72f3db1646a983c5/dotnet-sdk-8.0.204-win-x64.exe).
-- [Proxifier (v4.12 or above)](https://www.proxifier.com/download/) or [ProxyCap](https://github.com/Alighandchi/Proxifier/raw/refs/heads/main/pcap539_x64_repack.msi)
+- [Proxifier (v4.12 or above)](https://www.proxifier.com/download/ProxifierSetup.exe) or [ProxyCap](https://github.com/Alighandchi/Proxifier/raw/refs/heads/main/pcap539_x64_repack.msi)
 - Windows 10 or above.
 
 
